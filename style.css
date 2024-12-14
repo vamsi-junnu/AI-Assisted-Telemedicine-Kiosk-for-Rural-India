@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+#chatbot-section {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #007BFF;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#chat-window {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#chat-window .message {
+    margin: 5px 0;
+}
+
+#user-input {
+    width: 75%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#send-btn, #voice-btn {
+    width: 10%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#send-btn:hover, #voice-btn:hover {
+    background-color: #0056b3;
+}
+/* Style for login section */
+#login-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#login-form input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#login-form button {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login-form button:hover {
+    background-color: #0056b3;
+}
+#register-section, #login-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#register-form input, #register-form select, #login-form input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#register-form button, #login-form button {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#register-form button:hover, #login-form button:hover {
+    background-color: #0056b3;
+}
+
+#emergency-link {
+    text-align: center;
+    font-size: 1em;
+    color: #ff0000;
+    margin-top: 20px;
+}
+
+#emergency-link a {
+    color: #ff0000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#main-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#main-section button {
+    width: 150px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+#main-section button:hover {
+    background-color: #0056b3;
+}
+
+button#register-back-button,
+button#login-back-button,
+button#chatbot-back-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#register-back-button:hover,
+button#login-back-button:hover,
+button#chatbot-back-button:hover {
+    background-color: #5a6268;
+}

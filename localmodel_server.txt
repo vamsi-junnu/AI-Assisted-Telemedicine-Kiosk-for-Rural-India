@@ -1,0 +1,1 @@
+http://localhost:3000/api/v1/prediction/50cd4d7d-c7ba-47c2-9935-ac886cd2ba64"
